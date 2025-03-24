@@ -1,0 +1,33 @@
+{
+    "name": "elkojer-team/yookassa",
+    "description": "",
+    "authors": [
+        {
+            "name": "Amon Amonov",
+            "email": "amon@adwos.org"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Yookassa\\": "app",
+            "Modules\\Yookassa\\Database\\Factories\\": "database/factories/",
+            "Modules\\Yookassa\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Yookassa\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "yoomoney/yookassa-sdk-php": "^3.8"
+    }
+}

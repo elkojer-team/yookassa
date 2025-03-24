@@ -1,0 +1,12 @@
+{
+    "name": "Yookassa",
+    "alias": "yookassa",
+    "description": "Платежный модуль yookassa.ru",
+    "keywords": ["yookassa"],
+    "type": "payments",
+    "priority": 0,
+    "providers": [
+        "Modules\\Yookassa\\App\\Providers\\YookassaServiceProvider"
+    ],
+    "files": []
+}
